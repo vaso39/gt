@@ -1,0 +1,102 @@
+body {
+  width: 1440px;
+    height: 900px;
+    background: #ECF2F8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .testimonial .title {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  .daniel2  {
+    margin: 20px 0 0;
+  }
+  .text1 {
+    width: 676px;
+    height: 75px;
+    font-weight: 600px;
+    font-size: 20px;
+  }
+  .text2 {
+    width: 676px;
+    height: 90px;
+    opacity: 70%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #CFCFCF;
+
+  }
+  
+  .testimonial p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .testimonial.purple {
+    background: #6a4c93;
+    grid-column: span 2; /* ფართო ბლოკ*/
+  }
+  
+  .testimonial.blue {
+    background: #48556A;
+
+  }
+  
+  
+  .testimonial.white {
+    background: #ffff;
+    color: #333;
+  }
+  
+  .testimonial.light {
+    background: #FFFFFF;
+    color: #48556A;
+
+
+  }
+  
+  .testimonial.dark {
+    background: #333;
+  }
+  
+  .profile {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
